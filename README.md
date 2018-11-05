@@ -14,22 +14,22 @@ public class SalaryAssignment
    //Declaring variables
    double hours = 30; 
    
-   //
+   //rate
    double rate = 10.75;
   
-   //
+   //week
    double week = 52;
   
-   //
+   //month
    double month = 12;
   
-   //
+   //incometax
    double incometax = 1.15;
    
-   //
+   //EL Tax
    double el = 1.0166;
    
-   //
+   //CPP Tax
    double cpp = 1.0495;
    
    //Weekly Rate
@@ -52,7 +52,7 @@ public class SalaryAssignment
    
    //Annual Rate including Taxes
    double ar = a-it-y-x;
-
+//Print Statements
    //Weekly Rate
    System.out.println("Weekly Rate=hours multiplied by rate\n" +rate+ "*" +hours+ "=" + w );
     
@@ -63,5 +63,12 @@ public class SalaryAssignment
    System.out.println("Annual Rate=m multiplied by month\n" +m+ "*" +month+ "=" + a );
    
    //Annual Rate including Taxes
-   System.out.println("Annual Rate with Taxes=a subtracted by it subtracted by y subtracted by x\n" +a+ "-" +it+ "-" +y+ "-" +x+ "=" + ar );
+   System.out.println("Annual Rate with Taxes=a subtracted by it subtracted by y subtracted by x\n" +a+ "-" +it+ "-" +y+ "-" +x+ "=" ar);
+   //close main
+   }
+   //close class
+   }
+   
+   
+   
    
