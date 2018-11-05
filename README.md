@@ -8,10 +8,14 @@
  */
 
 public class SalaryAssignment
+
 {
-  public static void main (String[]args)
-  {
-   //Declaring variables
+
+public static void main (String[]args)
+
+{
+
+//Declaring variables
    
    double hours = 30; 
    
